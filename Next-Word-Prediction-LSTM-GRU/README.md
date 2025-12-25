@@ -162,7 +162,7 @@ To improve performance, models are loaded dynamically using Streamlit’s cachin
 The application is deployed using **Streamlit Cloud** by connecting the GitHub repository.
 All dependencies are specified in a `requirements.txt` file, allowing Streamlit Cloud to automatically build and deploy the app.
 
-🔗 **Live App:** [Link here]
+🔗 **Live App:** [click here](https://nvp-lstm-gru.streamlit.app/)
 
 ![streamlit app](https://theshoaibakthar.github.io/images/portfolio/Next-word-Prediction/Pasted%20image%2020251225184109.png)
 
