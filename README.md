@@ -17,6 +17,18 @@ A comprehensive sentiment analysis system on IMDb movie reviews using Simple RNN
 
 Skills demonstrated: RNN architecture, Sequence modeling, Text preprocessing, Deep learning frameworks, Model training and evaluation, Sentiment analysis
 
+### 2. [Next Word Prediction using LSTM & GRU](/Next-Word-Prediction-LSTM-GRU/)
+
+An advanced next word prediction system using LSTM and GRU networks trained on Shakespeare's Hamlet:
+
+- Preprocessed text data through tokenization, n-gram sequence generation, and padding
+- Built models with embedding layers, stacked recurrent layers, and dropout regularization
+- Implemented separate LSTM and GRU architectures for sequence-to-sequence prediction
+- Trained models using categorical cross-entropy loss and Adam optimizer
+- Created interactive Streamlit web application for real-time next word predictions
+
+Skills demonstrated: LSTM/GRU networks, Text tokenization, Sequence modeling, Model training, Web deployment, Streamlit
+
 ## Technical Skills Demonstrated
 
 ### Deep Learning
