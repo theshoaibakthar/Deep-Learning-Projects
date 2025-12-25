@@ -12,7 +12,7 @@ The IMDb dataset contains approximately **50,000 labeled reviews**, making it a 
 
 ## 🏗️ Project Architecture
 
-![Project Architecture](images/project_architecture.png)
+![Project Architecture](https://theshoaibakthar.github.io/images/portfolio/Simple-RNN-IMDb/Pasted%20image%2020251219131748.png)
 
 **Workflow overview:**
 
@@ -251,7 +251,7 @@ A Streamlit-based web app is built for user interaction.
 * Sentiment classification on button click
 * Displays sentiment label and prediction score
 
-![Streamlit App](images/streamlit-app.png)
+![streamlit app](https://theshoaibakthar.github.io/images/portfolio/Simple-RNN-IMDb/Pasted%20image%2020251220171040.png)
 
 ---
 
