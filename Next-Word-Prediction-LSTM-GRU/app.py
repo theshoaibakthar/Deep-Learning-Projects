@@ -3,11 +3,15 @@ import numpy as np
 import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+print(f"Base directory: {BASE_DIR}")
 
 # -----------------------------
 # Load tokenizer
 # -----------------------------
-with open("tokenizer.pickle", "rb") as handle:
+with open(BASE_DIR / "tokenizer.pickle", "rb") as handle:
     tokenizer = pickle.load(handle)
 
 # -----------------------------
@@ -16,9 +20,9 @@ with open("tokenizer.pickle", "rb") as handle:
 @st.cache_resource
 def load_selected_model(model_name):
     if model_name == "LSTM":
-        return load_model("next_word_lstm.keras")
+        return load_model(BASE_DIR / "next_word_lstm.keras")
     elif model_name == "GRU":
-        return load_model("next_word_gru.keras")
+        return load_model(BASE_DIR / "next_word_gru.keras")
 
 # -----------------------------
 # Prediction function
